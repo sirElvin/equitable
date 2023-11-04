@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitions Page</title>
+    <link rel="stylesheet" href="competitions.css">
+</head>
+<body>
+    <!-- Add this button to your HTML -->
+<button id="go-to-index">Go to Index</button>
+
+    <h1>Competitions Page</h1>
+
+    <button id="create-post-button">Create Post</button>
+
+    <div class="competition-form" id="competition-form">
+        <h2>Add a Competition</h2>
+        <input type="text" id="competition-title" placeholder="Competition Title">
+        <textarea id="competition-description" placeholder="Competition Description"></textarea>
+        <input type="date" id="competition-date">
+        <input type="file" id="competition-image" accept="image/*">
+        <button id="add-competition">Add Competition</button>
+        <button id="cancel-competition">Cancel</button> <!-- Add the Cancel button -->
+    </div>
+
+    <ul id="competition-list">
+        <!-- Competition entries will be displayed here -->
+    </ul>
+
+    <script src="competitions.js"></script>
+</body>
+</html>
